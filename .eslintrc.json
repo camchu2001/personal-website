@@ -12,7 +12,7 @@
     "max-len": [
       "warn",
       {
-        "code": 80
+        "code": 100
       }
     ],
     "quotes": [
