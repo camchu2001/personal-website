@@ -1,9 +1,11 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation'
 
 export const HeroSection = () => {
+  const [flipped, setFlipped] = useState(false);
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -47,14 +49,16 @@ export const HeroSection = () => {
 
         {/* IMAGE */}
         <div className="sm:col-span-3 lg:col-span-2.5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[white] w-[310px] h-[310px] lg:w-[410px] lg:h-[410px] relative">
-            <Image
-              src="/hero-image.png"
-              alt="coding girl"
+          <div className="rounded-full bg-[white] w-[210px] h-[210px] lg:w-[310px] lg:h-[310px] relative">
+            <img
+              src={flipped ? '/profile-picture.png' : '/hero-image.png'}
+              alt="profile picture"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
-                        lg:w-[390px]"
-              width={300}
-              height={300}
+                        lg:w-[290px]"
+              width={200}
+              height={200}
+              onMouseEnter={() => setFlipped(true)}
+              onMouseLeave={() => setFlipped(false)}
             />
           </div>
         </div>
