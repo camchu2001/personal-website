@@ -11,12 +11,12 @@ export const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <nav className='fixed mx-auto top-0 left-0 right-0 z-10 bg-[#2F4858] bg-opacity-100 backdrop-blur-[0.5rem]'>
-            <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+            <div className="flex container lg:py-4 flex-wrap items-center justify-around lg:justify-between mx-auto px-4 py-2">
                 {/* first line */}
                 <div className="mt-2">
-                    <div className="grid grid-cols-12">
+                    <div className="grid grid-cols-12 md:grid-cols-4">
                         <Link href={"/"} className='col-span-2'>
-                            <Image src={Home} alt='Homepage' width={70} height={50} className='ml-2 md:w-[100px]' />
+                            <Image src={Home} alt='Homepage' width={70} height={50} className='ml-2 md:w-[90px] lg:w-[120px]' />
                         </Link>
 
                         <div className="col-span-8"></div>
@@ -39,20 +39,19 @@ export const Navbar = () => {
                             )}
                         </div>
                     </div>
-
                 </div>
 
                 {/* second line */}
-                <div className={`menu ${navbarOpen ? 'block' : 'hidden'} md:block md:w-auto col-span-10 flex justify-center`} id='navbar'>
+                <div className={`menu mt-2 ${navbarOpen ? 'block' : 'hidden'} md:block md:w-auto flex justify-center`} id='navbar'>
                     <ul className="flex items-center p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
-                        <li>
-                            <Link href={"#projects"} className='block py-2 md:pl-3 pr-4 text-[#FFC57C] font-semibold md:text-2xl text-xl rounded md:p-0 hover:text-white '>
-                                Projects
-                            </Link>
-                        </li>
                         <li>
                             <Link href={"#experience"} className='block py-2 md:pl-3 pr-4 text-[#FFC57C] font-semibold md:text-2xl text-xl rounded md:p-0 hover:text-white '>
                                 Experience
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href={"#projects"} className='block py-2 md:pl-3 pr-4 text-[#FFC57C] font-semibold md:text-2xl text-xl rounded md:p-0 hover:text-white '>
+                                Projects
                             </Link>
                         </li>
                         <li>
