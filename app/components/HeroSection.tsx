@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation'
+import Link from 'next/link';
 
 export const HeroSection = () => {
   const [flipped, setFlipped] = useState(false);
@@ -36,7 +37,8 @@ export const HeroSection = () => {
             <button className='px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full mr-4 mb-3 font-semibold
                                bg-gradient-to-r from-rose-400 to-orange-300  text-white border border-white
                                hover:font-bold hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 focus:outline-none'>
-              My Resume
+
+              <Link href={"/Resume.pdf"}>My Resume</Link>
             </button>
             <button className='px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full font-semibold
                              bg-[#6EA172] text-white border border-white 
