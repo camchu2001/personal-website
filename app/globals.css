@@ -22,3 +22,8 @@ body {
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
+
+.vertical-timeline-element-content.is-hidden {
+  visibility: visible !important;
+  /* Override the visibility property */
+}

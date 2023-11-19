@@ -9,7 +9,7 @@ export const HeroSection = () => {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <section className='mt-20 lg:mt-20 xl:mt-13'>
+    <section className='mt-16 mb-12 md:mb-20 lg:mb-28'>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         {/* WELCOME TEXT */}
         <div className="sm:col-span-6 lg:col-span-7.5 place-self-center text-center sm:text-left justify-self-start">

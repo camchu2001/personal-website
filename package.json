@@ -14,12 +14,15 @@
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-type-animation": "^3.2.0"
+    "react-icons": "^4.12.0",
+    "react-type-animation": "^3.2.0",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "autoprefixer": "^10",
     "eslint": "^8.53.0",
     "eslint-config-next": "13.5.5",

@@ -1,4 +1,4 @@
-import { HeroSection, Navbar } from './components';
+import { HeroSection, Navbar, Experience } from './components';
 
 export default async function Home() {
   return (
@@ -6,6 +6,7 @@ export default async function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
+        <Experience />
       </div>
     </main>
   );
