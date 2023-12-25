@@ -1,11 +1,9 @@
 "use client";
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation'
 import Link from 'next/link';
-import { delay } from 'framer-motion';
 
-export const HeroSection = () => {
+export const About = () => {
   const [flipped, setFlipped] = useState(false);
 
   return (
@@ -55,7 +53,7 @@ export const HeroSection = () => {
         <div className="sm:col-span-3 lg:col-span-2.5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[white] w-[210px] h-[210px] lg:w-[310px] lg:h-[310px] relative">
             <img
-              src={flipped ? '/profile-picture.png' : '/hero-image.png'}
+              src={flipped ? '/profile-picture.png' : '/animated-profile.png'}
               alt="profile picture"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
                         lg:w-[290px]"

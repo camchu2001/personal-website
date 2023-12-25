@@ -15,13 +15,13 @@ export const Navbar = () => {
                 {/* first line */}
                 <div className="mt-2">
                     <div className="grid grid-cols-12 md:grid-cols-4">
-                        <Link href={"/"} className='col-span-2'>
-                            <Image src={Home} alt='Homepage' width={80} height={50} className='ml-2 md:w-[90px] lg:w-[120px]' />
+                        <Link href={"/"} className='col-span-3'>
+                            <Image src={Home} alt='Homepage' width={80} height={50} className='ml-2 sm:w-[90px] md:w-[90px] lg:w-[120px]' />
                         </Link>
 
-                        <div className="col-span-8"></div>
+                        <div className="col-span-7"></div>
 
-                        <div className="mobile-menu block mt-3 md:hidden col-span-2">
+                        <div className="mobile-menu block mt-5 md:hidden col-span-2">
                             {!navbarOpen ? (
                                 <button
                                     onClick={() => setNavbarOpen(true)}
