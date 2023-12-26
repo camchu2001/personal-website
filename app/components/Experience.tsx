@@ -24,6 +24,12 @@ export const Experience = () => {
                   contentArrowStyle={{
                     borderRight: '7px solid #98B0A9'
                   }}
+                  date={item.date}
+                  icon={item.icon}
+                  iconStyle={{
+                    background: 'white',
+                    fontSize: '1.5rem'
+                  }}
                 >
                   <h3 className="text-black font-bold capitalize xl:text-xl">{item.title}</h3>
                   <p className="text-black !mt-1 font-semibold xl:text-lg">
