@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
+// import React from 'react';
+// import { FaReact } from 'react-icons/fa';
+// import { LuGraduationCap } from 'react-icons/lu';
 
 export const experiences = [
   {
