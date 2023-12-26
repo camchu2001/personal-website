@@ -1,6 +1,8 @@
-"use client";
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
+'use client';
 import React, { useState } from 'react';
-import { TypeAnimation } from 'react-type-animation'
+import { TypeAnimation } from 'react-type-animation';
 import Link from 'next/link';
 
 export const About = () => {
@@ -10,14 +12,15 @@ export const About = () => {
     <section className='mt-16 mb-12 md:mb-20 lg:mb-28'>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         {/* WELCOME TEXT */}
-        <div className="sm:col-span-6 lg:col-span-7.5 place-self-center text-center sm:text-left justify-self-start">
+        <div className="sm:col-span-6 lg:col-span-7.5 place-self-center text-center sm:text-left 
+						justify-self-start">
           <h1 className="text-[#FFC4A9] mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            Hi, I'm
+						Hi, I'm
             <TypeAnimation
               sequence={[
-                " Cam Chu",
+                ' Cam Chu',
                 1200,
-                " a Web Developer",
+                ' a Web Developer',
                 1200
               ]}
               wrapper="span"
@@ -27,31 +30,37 @@ export const About = () => {
           </h1>
           <br></br>
           <p className='text-[#FFC57C] text-base sm:text-lg mb-6 lg:text-xl font-mono'>
-            Welcome to my website 🚀 <br></br>
-            I am a software engineer on a mission to learn and create.
-            Feel free to explore my projects and check out my coding journey.
+						Welcome to my website 🚀 <br></br>
+						I am a software engineer on a mission to learn and create.
+						Feel free to explore my projects and check out my coding journey.
           </p>
           <br></br>
           <div className="">
-            <Link href={"/Resume.pdf"}>
-              <button className='px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full mr-4 mb-3 font-semibold
-                               bg-gradient-to-r from-rose-400 to-orange-300  text-white border border-white
-                               hover:font-bold hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 focus:outline-none'>
-                My Resume
+            <Link href={'/Resume.pdf'}>
+              <button className='px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full mr-4 mb-3 
+			  					font-semibold bg-gradient-to-r from-rose-400 to-orange-300  
+								text-white border border-white hover:font-bold 
+								hover:from-pink-500 hover:via-red-500 
+								hover:to-yellow-500 focus:outline-none'>
+								My Resume
               </button>
             </Link>
-            <button className='px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full font-semibold
+            <Link href={'#contact'}>
+              <button
+                className='px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full font-semibold
                              bg-[#6EA172] text-white border border-white 
                              hover:bg-[#3c5d3f] hover:font-bold focus:outline-none'>
-              Contact Me
-            </button>
+								Contact Me
+              </button>
+            </Link>
           </div>
         </div>
         <div className="sm:col-span-2 lg:col-span-2"></div>
 
         {/* IMAGE */}
         <div className="sm:col-span-3 lg:col-span-2.5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[white] w-[210px] h-[210px] lg:w-[310px] lg:h-[310px] relative">
+          <div className="rounded-full bg-[white] w-[210px] h-[210px] 
+		  				lg:w-[310px] lg:h-[310px] relative">
             <img
               src={flipped ? '/profile-picture.png' : '/animated-profile.png'}
               alt="profile picture"
