@@ -28,7 +28,8 @@ export const Experience = () => {
                   icon={item.icon}
                   iconStyle={{
                     background: 'white',
-                    fontSize: '1.5rem'
+                    fontSize: '1.5rem',
+                    color:'black'
                   }}
                 >
                   <h3 className="text-black font-bold capitalize xl:text-xl">{item.title}</h3>

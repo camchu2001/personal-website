@@ -7,14 +7,14 @@ export const experiences = [
     company: 'Veryable Inc .',
     title: 'Software Engineering Intern',
     location: 'Dallas, TX',
-    icon: React.createElement(FaReact),
+    icon: './../public/work.png',
     date: 'July 2023 - October 2023'
   },
   {
     company: 'UTD Office of Information Technology',
     title: 'Computer Lab Technician',
     location: 'Richardson, TX',
-    icon: React.createElement(FaReact),
+    icon: './../public/work.png',
     date: 'May 2022 - May 2023'
   },
   {
@@ -22,7 +22,7 @@ export const experiences = [
     title: 'B.S Software Engineering',
     description: 'Academic Excellence Scholarship',
     location: 'Richardson, TX',
-    icon: React.createElement(LuGraduationCap),
+    icon: './../public/education.png',
     date: 'Aug 2019 - May 2023'
   }
 ];
