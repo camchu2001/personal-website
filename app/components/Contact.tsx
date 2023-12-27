@@ -1,3 +1,4 @@
+'use server';
 import React from 'react';
 import { FaPaperPlane } from 'react-icons/fa';
 import Image from 'next/image';
@@ -7,10 +8,10 @@ export const Contact = () => {
     <section id="contact" className='mt-24'>
       <div className="flex flex-wrap flex-col justify-center items-center">
         <Image src={'/contact.png'} alt={'contact'} width={70} height={70}
-          className='mb-10'/>
+          className='mb-5 md:w-[100px]'/>
         <p className="text-center text-base sm:text-lg lg:text-xl font-mono">
           Feel to reach out using the form below or send me an email at <a 
-            href="mailto:camchu.dev.@gmail.com" className="underline">camchu.dev@gmail.com
+            href="mailto:camchu.dev@gmail.com" className="underline">camchu.dev@gmail.com
           </a> 🌟
         </p>
       </div>
