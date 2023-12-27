@@ -1,4 +1,4 @@
-import { About, Navbar, Contact } from './components';
+import { About, Navbar, Contact, Footer } from './components';
 
 export default async function Home() {
   return (
@@ -7,6 +7,7 @@ export default async function Home() {
       <div className="container mt-28 sm:mt-32 md:mt-22 mx-auto px-12 py-4">
         <About />
         <Contact />
+        <Footer/>
       </div>
     </main>
   );
