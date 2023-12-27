@@ -7,7 +7,7 @@ import { experiences } from '@/lib/data';
 export const Experience = () => {
   return (
     <section id="experience">
-      <div className="mt-16">
+      <div className="mt-20">
         <VerticalTimeline>
           {
             experiences.map((item, index) => (
@@ -32,12 +32,14 @@ export const Experience = () => {
                     color:'black'
                   }}
                 >
-                  <h3 className="text-black font-bold capitalize xl:text-xl">{item.title}</h3>
-                  <p className="text-black !mt-1 font-semibold xl:text-lg">
-                    {item.company}
+                  <h3 className="text-black font-bold font-mono 
+                  capitalize xl:text-xl">{item.title}</h3>
+                  <p className="text-black !mt-1 font-semibold 
+                  xl:text-lg font-mono"> {item.company}
                   </p>
-                  <p className="font-normal !mt-0 text-gray-700 xl:text-lg">{item.location}</p>
-                  <p className="text-black !mt-0 !font-normal italic">
+                  <p className="font-normal font-mono !mt-0 text-gray-700 
+                  xl:text-lg ">{item.location}</p>
+                  <p className="text-black !mt-0 !font-normal font-mono italic">
                     {item.description}
                   </p>
                 </VerticalTimelineElement>
