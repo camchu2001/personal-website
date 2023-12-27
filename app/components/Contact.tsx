@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPaperPlane } from 'react-icons/fa';
+// import { FaPaperPlane } from 'react-icons/fa';
 import Image from 'next/image';
 
 export const Contact = () => {
