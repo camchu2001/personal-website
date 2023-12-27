@@ -17,18 +17,23 @@ export const Contact = () => {
 
       <form className="mt-6 flex flex-wrap flex-col md:items-center">
         <input type="email" name='senderEmail' placeholder='Your email ' maxLength={500} required 
-          className='p-2 mb-4 h-[3rem] md:w-[700px] rounded-md border-black text-black'/> 
+          className='p-2 mb-4 h-[3rem] md:w-[700px] rounded-md border-black text-black
+          bg-[#FFF8EC]'/> 
 
         <input type="text" name='emailSubject' placeholder='Your subject ' 
-          className='p-2 mb-4 h-[3rem] md:w-[700px] rounded-md border-black text-black'/>
+          className='p-2 mb-4 h-[3rem] md:w-[700px] rounded-md border-black text-black
+          bg-[#FFF8EC]'/>
 
         <textarea name="message" placeholder="Your message " maxLength={5000} required
-          className='p-2 mb-4 h-[10rem] md:w-[700px] rounded-md border-black text-black'>
+          className='p-2 mb-4 h-[10rem] md:w-[700px] rounded-md border-black text-black
+          bg-[#FFF8EC]'>
         </textarea>
 
         <div className="flex flex-wrap flex-col items-center">
           <button type="submit" 
-            className='rounded-lg bg-black p-2 w-[100px] flex items-center'>
+            className='rounded-lg bg-[#FFBF51] p-2 w-[100px] flex items-center
+            font-semibold font-mono text-[#006978]
+            hover:border-white hover:border-2 hover:bg-[#ffb459]'>
           Submit <FaPaperPlane className="ml-2"/>
           </button>
         </div>
