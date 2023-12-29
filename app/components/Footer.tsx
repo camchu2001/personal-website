@@ -7,7 +7,7 @@ export const Footer = () => {
         &copy; All rights reserved.
       </small>
       <p className='text-xs'>
-        Website built using TypeScript, React & Next.js, Tailwind CSS.
+        Website built using React & Next.js, Tailwind CSS, deployed using Vercel. 
       </p>
     </footer>
   );
