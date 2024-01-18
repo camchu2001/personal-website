@@ -20,6 +20,8 @@ export const About = () => {
               sequence={[
                 ' Cam Chu',
                 1200,
+                ' a Software Engineer',
+                1200,
                 ' a Web Developer',
                 1200
               ]}
