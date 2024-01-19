@@ -1,7 +1,8 @@
-'use server';
+'use client';
 import React from 'react';
 import { FaPaperPlane } from 'react-icons/fa';
 import Image from 'next/image';
+import {POST} from './../api/send/route';
 
 export const Contact = () => {
   return (
@@ -16,7 +17,11 @@ export const Contact = () => {
         </p>
       </div>
 
-      <form className="mt-6 flex flex-wrap flex-col md:items-center">
+      <form className="mt-6 flex flex-wrap flex-col md:items-center"
+        action={async(formData) => {
+          await POST(formData);
+        }}
+      >
         <input type="email" name='senderEmail' placeholder='Your email ' maxLength={500} required 
           className='p-2 mb-4 h-[3rem] md:w-[700px] rounded-md border-black text-black
           bg-[#FFF8EC]'/> 
