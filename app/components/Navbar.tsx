@@ -48,7 +48,7 @@ export const Navbar = () => {
 
         {/* second line */}
         <div className={`menu lg:mt-2 ${navbarOpen ? 'block' : 'hidden'} 
-						md:block md:w-auto container flex justify-center`} id='navbar'>
+						md:block md:w-auto container min-w-10 flex justify-center`} id='navbar'>
           <ul className="flex items-center p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {/* <li>
               <Link href={'#experience'} className='block py-2 md:pl-3 pr-4 
@@ -64,12 +64,12 @@ export const Navbar = () => {
             </li>  */}
             <li>
               <Link href="https://github.com/camchu2001">
-                <Image src={GithubIcon} alt="Github Icon" className='m-5' />
+                <Image src={GithubIcon} alt="Github Icon" className='mx-5' />
               </Link>
             </li>
             <li>
               <Link href="https://www.linkedin.com/in/cam-chu/">
-                <Image src={LinkedinIcon} alt="Linkedin Icon" className='m-5' />
+                <Image src={LinkedinIcon} alt="Linkedin Icon" className='mx-5' />
               </Link>
             </li>
           </ul>
