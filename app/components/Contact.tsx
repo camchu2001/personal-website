@@ -24,15 +24,15 @@ export const Contact = () => {
       >
         <input type="email" name='senderEmail' placeholder='Your email ' maxLength={500} required 
           className='p-2 mb-4 h-[3rem] md:w-[700px] rounded-md border-black text-black
-          bg-[#FFF8EC]'/> 
+          bg-[#eee]'/> 
 
         <input type="text" name='emailSubject' placeholder='Your subject ' 
           className='p-2 mb-4 h-[3rem] md:w-[700px] rounded-md border-black text-black
-          bg-[#FFF8EC]'/>
+          bg-[#eee]'/>
 
         <textarea name="message" placeholder="Your message " maxLength={5000} required
           className='p-2 mb-4 h-[10rem] md:w-[700px] rounded-md border-black text-black
-          bg-[#FFF8EC]'>
+          bg-[#eee]'>
         </textarea>
 
         <div className="flex flex-wrap flex-col items-center">
