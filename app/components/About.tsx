@@ -2,17 +2,16 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
 import React, { useState } from 'react';
-import Link from 'next/link';
 
 export const About = () => {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <section className="mt-14">
+    <section className="mt-14 text-[#EFEFEF]">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="sm:col-span-6 lg:col-span-7.5 place-self-center text-center sm:text-left 
 						justify-self-start">
-          <p className="text-[#FFC57C] text-base sm:text-lg mb-6 lg:text-xl font-mono">
+          <p className="text-base sm:text-lg mb-6 lg:text-xl font-mono">
 						Hi there! My name is Cam, I'm a Software Engineer and 
             a full-stack Web Developer!
             <br></br>
@@ -20,37 +19,28 @@ export const About = () => {
             I hope you'll find something to enjoy~ 😊
           </p>
 
-          <div className="flex gap-5 item-center justify-between">
-            <img src={'/contact.png'} alt={'contact'} width={50} height={50}
-              className='mb-5 md:w-[60px]'/>
+          <div className="flex gap-5 items-center">
+            <img src='/contact.png' alt='contact' className='md:w-[50px] mr-5' />
+            <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              href="https://github.com/camchu2001" 
+              className="underline decoration-[#eab308]">github</a> 
+            </p>
+            <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              href="https://www.linkedin.com/in/cam-chu/" 
+              className="underline decoration-[#10A2FF]">linkedin</a> 
+            </p>
+            <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              href="https://codepen.io/Cam-Chu" 
+              className="underline decoration-[#ec4899]">codepen</a> 
+            </p>
             <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
               href="mailto:camchu.dev@gmail.com" 
-              className="underline">camchu.dev@gmail.com</a> 🌟 
+              className="underline decoration-[#eab308]">camchu.dev@gmail.com</a> 🌟 
             </p>
-          </div>
-          <div className="">
-            <Link href={'/Resume.pdf'}>
-              <button className="px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full mr-4 mb-3 
-			  					font-semibold bg-gradient-to-r from-rose-400 to-orange-300  
-								text-white border border-white hover:font-bold 
-								hover:from-pink-500 hover:via-red-500 
-								hover:to-yellow-500 focus:outline-none">
-								My Resume
-              </button>
-            </Link>
-            <Link href={'#contact'}>
-              <button
-                className="px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full font-semibold
-                             bg-[#6EA172] text-white border border-white 
-                             hover:bg-[#3c5d3f] hover:font-bold focus:outline-none">
-								Contact Me
-              </button>
-            </Link>
           </div>
         </div>
        
-       
-        <div className="sm:col-span-2 lg:col-span-2"></div>
+        <div className="col-span-2"></div>
 
         {/* IMAGE */}
         <div className="sm:col-span-3 lg:col-span-2.5 place-self-top mt-4 lg:mt-0">

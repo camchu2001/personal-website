@@ -18,6 +18,7 @@ export const Navbar = () => {
         <div className="mt-2 flex gap-10 md:text-xl text-lg">
           <Link href={'/'}>Projects</Link>
           <Link href={'/'}>Second Brain</Link>
+          <button></button>
         </div>
       </div>
     </nav >
