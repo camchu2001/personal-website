@@ -16,7 +16,6 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="mt-2 flex items-center sm:gap-10 sm:text-xl text-lg gap-3">
-          <Link href={'/'}>Projects</Link>
           <Link href={'/'}>Second Brain</Link>
           <button>
             <Image src="/light-mode.png" alt="light-mode" width={50} height={50}
