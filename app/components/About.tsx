@@ -8,7 +8,7 @@ export const About = () => {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <section className="mt-16 mb-12 md:mb-20 lg:mb-28">
+    <section className="mt-14">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="sm:col-span-6 lg:col-span-7.5 place-self-center text-center sm:text-left 
 						justify-self-start">

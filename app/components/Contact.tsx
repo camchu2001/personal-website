@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 export const Contact = () => {
   return (
-    <section id="contact" className='mt-24 mb-20'>
-      <div className="flex flex-wrap flex-col justify-center items-center">
+    <section id="contact" className='mb-20'>
+      <div className="justify-center items-center">
         <Image src={'/contact.png'} alt={'contact'} width={70} height={70}
           className='mb-5 md:w-[100px]'/>
         <p className="text-center text-base sm:text-lg lg:text-xl font-mono">

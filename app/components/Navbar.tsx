@@ -7,8 +7,7 @@ import Home from '../../public/home.svg';
 export const Navbar = () => {
   return (
     <nav className='fixed mx-auto top-0 left-0 right-0 z-10 bg-[#253946]'>
-      <div className="flex container lg:py-4 flex-wrap items-center justi
-	  				  lg:justify-between mx-auto px-4 py-2">
+      <div className="flex container lg:py-4 flex-wrap items-center mx-auto px-4 py-2">
         <div className="mt-2">
           <Link href={'/'}>
             <Image src={Home} alt='Homepage' width={80} height={50} className='ml-2 
