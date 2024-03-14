@@ -3,7 +3,6 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const About = () => {
   const [flipped, setFlipped] = useState(false);
@@ -17,10 +16,18 @@ export const About = () => {
 						Hi there! My name is Cam, I'm a Software Engineer and 
             a full-stack Web Developer!
             <br></br>
-						Feel free to explore my projects and check out my coding journey. 
+						This is where I share my projects, my experiences, and my coding journey. 
             I hope you'll find something to enjoy~ 😊
           </p>
-          <br></br>
+
+          <div className="flex gap-5 item-center justify-between">
+            <img src={'/contact.png'} alt={'contact'} width={50} height={50}
+              className='mb-5 md:w-[60px]'/>
+            <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              href="mailto:camchu.dev@gmail.com" 
+              className="underline">camchu.dev@gmail.com</a> 🌟 
+            </p>
+          </div>
           <div className="">
             <Link href={'/Resume.pdf'}>
               <button className="px-6 py-3 w-full sm:w-fit sm:mb-2 rounded-full mr-4 mb-3 
@@ -39,21 +46,14 @@ export const About = () => {
 								Contact Me
               </button>
             </Link>
-            <div className="justify-center items-center">
-              <Image src={'/contact.png'} alt={'contact'} width={70} height={70}
-                className='mb-5 md:w-[100px]'/>
-              <p className="text-center text-base sm:text-lg lg:text-xl font-mono">
-          Feel to reach out send me an email at <a 
-                  href="mailto:camchu.dev@gmail.com" className="underline">camchu.dev@gmail.com
-                </a> 🌟
-              </p>
-            </div>
           </div>
         </div>
+       
+       
         <div className="sm:col-span-2 lg:col-span-2"></div>
 
         {/* IMAGE */}
-        <div className="sm:col-span-3 lg:col-span-2.5 place-self-center mt-4 lg:mt-0">
+        <div className="sm:col-span-3 lg:col-span-2.5 place-self-top mt-4 lg:mt-0">
           <div className="rounded-full bg-[white] w-[210px] h-[210px] 
 		  				lg:w-[310px] lg:h-[310px] relative">
             <img
