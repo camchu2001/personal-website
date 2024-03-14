@@ -32,10 +32,11 @@ export const About = () => {
           </h1>
           <br></br>
           <p className="text-[#FFC57C] text-base sm:text-lg mb-6 lg:text-xl font-mono">
-						Welcome to my website! My name is Cam, I'm a Software Engineer and 
+						Hi there! My name is Cam, I'm a Software Engineer and 
             a full-stack Web Developer!
             <br></br>
-						Feel free to explore my projects and check out my coding journey. 🚀 
+						Feel free to explore my projects and check out my coding journey. 
+            I hope you find something to enjoy~ 😊
           </p>
           <br></br>
           <div className="">
