@@ -9,7 +9,8 @@ export const About = () => {
   return (
     <section className="mt-14 text-[#EFEFEF]">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="sm:col-span-6 lg:col-span-7.5 place-self-center text-center sm:text-left 
+        <div className="sm:col-span-6 lg:col-span-7.5 
+        place-self-center text-center sm:text-left 
 						justify-self-start">
           <p className="text-base sm:text-lg mb-6 lg:text-xl font-mono">
 						Hi there! My name is Cam, I'm a Software Engineer and 
@@ -20,7 +21,7 @@ export const About = () => {
           </p>
 
           <div className="flex gap-5 items-center">
-            <img src='/contact.png' alt='contact' className='md:w-[50px] mr-5' />
+            <img src='/contact.png' alt='contact' className='md:w-[50px] w-[30px] mr-5' />
             <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
               href="https://github.com/camchu2001" 
               className="underline decoration-[#eab308]">github</a> 
