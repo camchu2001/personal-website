@@ -3,6 +3,7 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const About = () => {
   const [flipped, setFlipped] = useState(false);
@@ -38,6 +39,15 @@ export const About = () => {
 								Contact Me
               </button>
             </Link>
+            <div className="justify-center items-center">
+              <Image src={'/contact.png'} alt={'contact'} width={70} height={70}
+                className='mb-5 md:w-[100px]'/>
+              <p className="text-center text-base sm:text-lg lg:text-xl font-mono">
+          Feel to reach out send me an email at <a 
+                  href="mailto:camchu.dev@gmail.com" className="underline">camchu.dev@gmail.com
+                </a> 🌟
+              </p>
+            </div>
           </div>
         </div>
         <div className="sm:col-span-2 lg:col-span-2"></div>
