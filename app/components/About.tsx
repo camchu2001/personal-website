@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
 import React, { useState } from 'react';
-import { TypeAnimation } from 'react-type-animation';
 import Link from 'next/link';
 
 export const About = () => {
@@ -11,32 +10,14 @@ export const About = () => {
   return (
     <section className="mt-16 mb-12 md:mb-20 lg:mb-28">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        {/* WELCOME TEXT */}
         <div className="sm:col-span-6 lg:col-span-7.5 place-self-center text-center sm:text-left 
 						justify-self-start">
-          <h1 className="text-[#FFC4A9] mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-						Hi, I'm
-            <TypeAnimation
-              sequence={[
-                ' Cam Chu',
-                1200,
-                ' a Software Engineer',
-                1200,
-                ' a Web Developer',
-                1200
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
-          </h1>
-          <br></br>
           <p className="text-[#FFC57C] text-base sm:text-lg mb-6 lg:text-xl font-mono">
 						Hi there! My name is Cam, I'm a Software Engineer and 
             a full-stack Web Developer!
             <br></br>
 						Feel free to explore my projects and check out my coding journey. 
-            I hope you find something to enjoy~ 😊
+            I hope you'll find something to enjoy~ 😊
           </p>
           <br></br>
           <div className="">
