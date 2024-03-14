@@ -15,10 +15,13 @@ export const Navbar = () => {
 			  sm:w-[90px] md:w-[90px] lg:w-[120px]' />
           </Link>
         </div>
-        <div className="mt-2 flex gap-10 sm:text-xl text-xl">
+        <div className="mt-2 flex items-center sm:gap-10 sm:text-xl text-lg gap-3">
           <Link href={'/'}>Projects</Link>
           <Link href={'/'}>Second Brain</Link>
-          <button></button>
+          <button>
+            <Image src="/light-mode.png" alt="light-mode" width={50} height={50}
+              className='w-[40px] md:w-[50px]'/>
+          </button>
         </div>
       </div>
     </nav >
