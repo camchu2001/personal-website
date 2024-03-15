@@ -16,10 +16,10 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="mt-2 flex items-center sm:gap-10 sm:text-xl text-lg gap-3">
-          <button>
+          {/* <button>
             <Image src="/light-mode.png" alt="light-mode" width={50} height={50}
               className='w-[50px] md:w-[60px]'/>
-          </button>
+          </button> */}
         </div>
       </div>
     </nav >
