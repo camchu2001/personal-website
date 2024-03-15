@@ -6,7 +6,7 @@ export default async function Home() {
       <Navbar />
       <div className="container mt-20 sm:mt-32 md:mt-22 mx-auto px-12 py-4 flex-grow">
         <About />
-        <Projects />
+        {/* <Projects /> */}
       </div>
       <Footer/>
     </main>
