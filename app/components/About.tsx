@@ -7,16 +7,22 @@ export const About = () => {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <section className="mt-14 text-[#EFEFEF]">
+    <section className="mt-14 text-[#EFEFEF]s">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="sm:col-span-7 lg:col-span-7.5 place-self-start text-center sm:text-left 
+        <div className="sm:col-span-7 lg:col-span-7.5 
+        place-self-start text-center sm:text-left 
 						justify-self-start">
           <p className="text-base sm:text-lg mb-6 lg:text-xl font-mono">
-						Hi there! My name is Cam, I'm a Software Engineer and 
-            a full-stack Web Developer!
+						Hi there! My name is <span className='text-[#FFC57C]'>Cam</span>, 
+            I'm a Software Engineer and a full-stack Web Developer!
             <br></br>
-						This is where I share my projects, my experiences, and my coding journey. 
+						This is where I share my <span className='text-[#FFC57C]'>projects</span>, 
+            my <span className='text-[#FFC57C]'>experiences</span>, 
+            and my <span className='text-[#FFC57C]'>coding</span> journey. 
             I hope you'll find something to enjoy~ 😊
+            <br></br><br></br>
+						I'm still learning, so <span className='text-[#FFC57C]'>feedback </span> 
+             is always appreciated! You know where to find me~ ⬇️  
           </p>
 
           <div className="flex gap-5 items-center">
