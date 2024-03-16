@@ -53,15 +53,16 @@ export const About = () => {
         {/* IMAGE */}
         <div className="sm:col-span-3 lg:col-span-2.5 place-self-center 
         sm:place-self-top mt-4 lg:mt-0">
-          <div className="rounded-full bg-[white] w-[210px] h-[210px] 
+          <div className="rounded-full bg-[white] w-[160px] h-[160px] 
+              sm:w-[210px] sm:h-[210px]
 		  				lg:w-[310px] lg:h-[310px] relative">
             <img
               src={flipped ? '/profile-picture.png' : '/animated-profile.png'}
               alt="profile picture"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
-                        lg:w-[290px]"
-              width={200}
-              height={200}
+                         sm:w-[200px] lg:w-[290px]"
+              width={150}
+              height={150}
               onMouseEnter={() => setFlipped(true)}
               onMouseLeave={() => setFlipped(false)}
             />
