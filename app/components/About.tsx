@@ -36,13 +36,13 @@ export const About = () => {
                 href="https://www.linkedin.com/in/cam-chu/" 
                 className="underline decoration-[#10A2FF]">linkedin</a> 
               </p>
-              <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              {/* <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
                 href="https://codepen.io/Cam-Chu" 
                 className="underline decoration-[#ec4899]">codepen</a> 
-              </p>
+              </p> */}
               <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
                 href="mailto:camchu.dev@gmail.com" 
-                className="underline decoration-[#eab308]">camchu.dev@gmail.com</a> 🌟 
+                className="underline decoration-[#ec4899]">camchu.dev@gmail.com</a> 🌟 
               </p>
             </div>
           </div>
