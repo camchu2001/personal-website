@@ -7,32 +7,32 @@ export const About = () => {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <section className="mt-14 text-[#EFEFEF]">
+    <section className="mt-10 text-[#EFEFEF] text-base sm:text-md mb-6 lg:text-lg font-mono">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="sm:col-span-7 lg:col-span-7.5 
         place-self-start text-center sm:text-left 
 						justify-self-start">
-          <p className="text-base sm:text-lg mb-6 lg:text-xl font-mono">
+          <p className="">
 						Hi there! My name is <span className='text-[#FFC57C]'>Cam</span>, 
-            I'm a Software Engineer and a full-stack Web Developer!
+            I'm a Software Engineer.
             <br></br>
-						This is where I share my <span className='text-[#FFC57C]'>projects</span>, 
-            my <span className='text-[#FFC57C]'>experiences</span>, 
-            and my <span className='text-[#FFC57C]'>coding</span> journey. 
-            I hope you'll find something to enjoy~ 😊
+						This is where I share my <span className='text-[#FFC57C]'>projects </span>
+             and my <span className='text-[#FFC57C]'>coding</span> journey. 
+            I hope you'll find something here to enjoy~ 😊
             <br></br><br></br>
 						I'm still learning, so <span className='text-[#FFC57C]'>feedback </span> 
              is always appreciated! You know where to find me~ ⬇️  
+            <br></br><br></br>
           </p>
 
           <div className="flex gap-5 items-center">
             <img src='/contact.png' alt='contact' className='md:w-[50px] w-[30px] md:mr-5' />
             <div className="flex flex-wrap gap-5 items-center">
-              <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              <p className=""> <a 
                 href="https://github.com/camchu2001" 
                 className="underline decoration-[#eab308]">github</a> 
               </p>
-              <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              <p className=""> <a 
                 href="https://www.linkedin.com/in/cam-chu/" 
                 className="underline decoration-[#10A2FF]">linkedin</a> 
               </p>
@@ -40,7 +40,7 @@ export const About = () => {
                 href="https://codepen.io/Cam-Chu" 
                 className="underline decoration-[#ec4899]">codepen</a> 
               </p> */}
-              <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+              <p className=""> <a 
                 href="mailto:camchu.dev@gmail.com" 
                 className="underline decoration-[#ec4899]">camchu.dev@gmail.com</a> 🌟 
               </p>
