@@ -17,8 +17,7 @@ export const About = () => {
             I'm a Software Engineer.
             <br></br>
 						This is where I share my <span className='text-[#FFC57C]'>projects </span>
-             and my <span className='text-[#FFC57C]'>coding</span> journey. 
-            I hope you'll find something here to enjoy~ 😊
+             and my <span className='text-[#FFC57C]'>coding</span> journey.
             <br></br><br></br>
 						I'm still learning, so <span className='text-[#FFC57C]'>feedback </span> 
              is always appreciated! You know where to find me~ ⬇️  
