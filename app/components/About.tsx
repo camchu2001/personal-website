@@ -20,7 +20,7 @@ export const About = () => {
              and my <span className='text-[#FFC57C]'>coding</span> journey.
             <br></br><br></br>
 						I'm still learning, so <span className='text-[#FFC57C]'>feedback </span> 
-             is always appreciated! You know where to find me~ ⬇️  
+             is always appreciated! Feel free to reach out, you know where to find me~ ⬇️  
             <br></br><br></br>
           </p>
 
