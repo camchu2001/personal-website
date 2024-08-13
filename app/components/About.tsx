@@ -27,6 +27,10 @@ export const About = () => {
           <div className="flex gap-5 items-center">
             <img src='/contact.png' alt='contact' className='md:w-[50px] w-[30px] md:mr-5' />
             <div className="flex flex-wrap gap-5 items-center">
+              <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
+                href="https://main--camchuwiki.netlify.app/" 
+                className="underline decoration-[#33925d]">wiki</a> 
+              </p>
               <p className=""> <a 
                 href="https://github.com/camchu2001" 
                 className="underline decoration-[#eab308]">github</a> 
@@ -35,13 +39,9 @@ export const About = () => {
                 href="https://www.linkedin.com/in/cam-chu/" 
                 className="underline decoration-[#10A2FF]">linkedin</a> 
               </p>
-              {/* <p className="text-base sm:text-lg lg:text-xl font-mono"> <a 
-                href="https://codepen.io/Cam-Chu" 
-                className="underline decoration-[#ec4899]">codepen</a> 
-              </p> */}
               <p className=""> <a 
                 href="mailto:camchu.dev@gmail.com" 
-                className="underline decoration-[#ec4899]">camchu.dev@gmail.com</a> 🌟 
+                className="underline decoration-[#ec4899]">email</a> 🌟 
               </p>
             </div>
           </div>
