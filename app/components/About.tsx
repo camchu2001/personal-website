@@ -13,7 +13,7 @@ export const About = () => {
         place-self-start text-center sm:text-left 
 						justify-self-start">
           <p className="">
-						Hi there! My name is <span className='text-[#FFC57C]'>Cam</span>.
+						Hi there! My name is <span className='text-[#FFC57C]'>Cam</span>~
             <br></br>
 						This is where I share my <span className='text-[#FFC57C]'>projects </span>
              and my <span className='text-[#FFC57C]'>coding</span> journey.
